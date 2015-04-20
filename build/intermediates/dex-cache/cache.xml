@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Shayan Mukhtar\AndroidStudioProjects\SoleMate-master\SoleMate-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\libs\internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="C:\Users\Shayan Mukhtar\AndroidStudioProjects\SoleMate-master\SoleMate-master\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-3bed04396d5fd978af7d201e01c4f566fb4cbcdd.jar" />
+    </item>
+    <item
+        jar="C:\Users\Shayan Mukhtar\AndroidStudioProjects\SoleMate-master\SoleMate-master\app\build\intermediates\exploded-aar\com.jjoe64\graphview\4.0.0\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="ae24ad61a573cd1faf8261f5ec6d8f0cb58ddaad">
+        <dex dex="C:\Users\Shayan Mukhtar\AndroidStudioProjects\SoleMate-master\SoleMate-master\app\build\intermediates\pre-dexed\debug\classes-592fdc031f2af5c5994254a0ac0f32e1ab76678f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Shayan Mukhtar\AndroidStudioProjects\SoleMate-master\SoleMate-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\20.0.0\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef">
+        <dex dex="C:\Users\Shayan Mukhtar\AndroidStudioProjects\SoleMate-master\SoleMate-master\app\build\intermediates\pre-dexed\debug\classes-b3592332eb9d93d9c13a9a67741aa65a08cf96c4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Shayan Mukhtar\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="C:\Users\Shayan Mukhtar\AndroidStudioProjects\SoleMate-master\SoleMate-master\app\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-b2e93fd3183b1a2066eba7eba24a5d7e7f13a903.jar" />
+    </item>
+    <item
+        jar="C:\Users\Shayan Mukhtar\AndroidStudioProjects\SoleMate-master\SoleMate-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="C:\Users\Shayan Mukhtar\AndroidStudioProjects\SoleMate-master\SoleMate-master\app\build\intermediates\pre-dexed\debug\classes-4fce2071d6e58ad0ed4b92e67ccaacefce1fb70a.jar" />
+    </item>
+
+</items>

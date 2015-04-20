@@ -1,0 +1,223 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/appbackground8"
+    tools:context="com.capstone.solemate.solemate.FeedbackActivity">
+    <!--android:background="#000000"-->
+
+
+    <TextView
+        android:id="@+id/leftBicep"
+        android:text="@string/hello_world"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageViewLBA"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="51dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/humanbody_rba"
+        android:id="@+id/imageViewLBA"
+        android:visibility="invisible"
+        android:layout_centerHorizontal="true" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/humanbody_lba"
+        android:id="@+id/imageViewRBA"
+        android:visibility="invisible"
+        android:layout_centerHorizontal="true" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/humanbody2a"
+        android:id="@+id/imageViewBody"
+        android:visibility="visible"
+        android:layout_below="@+id/buttonRecord"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/rightBicep"
+        android:text="@string/hello_world"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/leftBicep"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/ECG"
+        android:text="60 BPM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView6"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/temperature"
+        android:text="35 C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageViewThermometer"
+        android:layout_toRightOf="@+id/imageViewThermometer"
+        android:layout_marginBottom="30dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Recording"
+        android:id="@+id/buttonRecord"
+        android:onClick="buttonRecordClick"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:id="@+id/buttonReset"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/leftBicepRepCounter"
+        android:text="10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView4"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="28dp"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="false"/>
+
+    <TextView
+        android:id="@+id/rightBicepRepCounter"
+        android:text="10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/imageView3"
+        android:layout_marginRight="31dp"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_marginTop="25dp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/dumbbell"
+        android:layout_below="@+id/imageViewLBA"
+        android:layout_toLeftOf="@+id/imageView7"
+        android:layout_toStartOf="@+id/imageView7"
+        android:layout_marginTop="30dp" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView2"
+        android:src="@drawable/ekg2"
+        android:layout_above="@+id/ECG"
+        android:layout_alignLeft="@+id/ECG"
+        android:layout_alignStart="@+id/ECG" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/imageView3"
+        android:src="@drawable/circle2"
+        android:layout_toRightOf="@+id/buttonRecord"
+        android:layout_toEndOf="@+id/buttonRecord"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_marginTop="20dp" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/imageView4"
+        android:src="@drawable/circle2"
+        android:layout_toLeftOf="@+id/buttonRecord"
+        android:layout_toStartOf="@+id/buttonRecord"
+        android:layout_marginTop="20dp"
+        android:layout_alignTop="@+id/imageView" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageViewThermometer"
+        android:src="@drawable/thermometer"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/imageView7"
+        android:layout_alignLeft="@+id/imageView7"
+        android:layout_marginLeft="15dp"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageViewThermometerRed"
+        android:src="@drawable/thermometerred"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/imageView7"
+        android:layout_alignLeft="@+id/imageView7"
+        android:layout_marginLeft="15dp"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageViewThermometerGreen"
+        android:src="@drawable/thermometergreen"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/imageView7"
+        android:layout_alignLeft="@+id/imageView7"
+        android:layout_marginLeft="15dp"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageViewThermometerOrange"
+        android:src="@drawable/thermometerorange"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/imageView7"
+        android:layout_alignLeft="@+id/imageView7"
+        android:layout_marginLeft="15dp"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageView6"
+        android:src="@drawable/red4"
+        android:layout_alignTop="@+id/imageViewBody"
+        android:layout_marginLeft="67dp"
+        android:layout_alignLeft="@+id/imageViewBody"
+        android:layout_marginTop="195dp" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageView7"
+        android:src="@drawable/red4"
+        android:layout_alignTop="@+id/imageViewBody"
+        android:layout_marginTop="195dp"
+        android:layout_marginRight="59dp"
+        android:layout_alignRight="@+id/imageViewBody" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Performance"
+        android:id="@+id/startPerformance"
+        android:layout_below="@+id/imageViewBody"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp" />
+
+
+</RelativeLayout>
